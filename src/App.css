@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: "Amazon Ember", sans-serif;
+}
+body{
+    --header-color: #232F3F;
+}
+.app{
+
+}
+@font-face {
+    font-family: "Amazon Ember";
+    src: local("AmazonEmber_Lt.ttf");
+}

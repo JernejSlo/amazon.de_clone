@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.star{
+    color: rgb(255,164,28);
+    font-size: 20px !important;
+}
+.Searchproduct__rating {
+    color: yellow !important;
+}
+.Searchproduct__ratingS{
+    width: 10% !important;
+}
+.Searchproduct1 {
+    padding: 10px;
+    border: none;
+    display: block;
+    border-radius: 0.25em;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+    max-height: 400px;
+    max-width: 250px;
+    background-color: white;
+    z-index: 1;
+}
+.Searchproduct__button:hover{
+    background-color: #F7CA00;
+}
+.Searchproduct__button{
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+    border-radius: 0.5em;
+    margin-left: 25%;
+    margin-top: 10px;
+    color: #111;
+
+}
+
+.Searchproduct__price{
+    margin-top: 5px;
+}
+
+.Searchproduct__info{
+    width: 100%;
+    height: 100px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+.Searchproduct__rating{
+    display: flex;
+}
+.Searchproduct__images > img {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-height: 200px;
+    padding-bottom: 10px;
+    object-fit: contain;
+}

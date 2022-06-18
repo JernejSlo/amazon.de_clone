@@ -1,0 +1,29 @@
+.categories{
+    display: block;
+    background-color: white;
+    margin: 5px 10px;
+    padding: 10px;
+    height: 350px;
+    width: 25%;
+    align-items: center;
+}
+.categories__flex{
+    display: flex;
+}
+.categories__margin{
+    margin: auto;
+}
+.categories__product{
+    display: block;
+    padding: 5px;
+    width: 100%;
+    max-width: 150px;
+    height: 50%;
+}
+.categories__product > img{
+    height: 120px;
+    object-fit: fill;
+}
+.categories__product >label{
+    font-size: 10px;
+}
